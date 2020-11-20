@@ -1,0 +1,130 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/home/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+				"navigationStyle":"custom",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+			"path": "pages/home/release",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/my/my_address",
+			"style": {
+				"navigationBarTitleText": "我的地址"
+			}
+		},
+		{
+			"path": "pages/my/add_address",
+			"style": {
+				"navigationBarTitleText": "新增地址"
+			}
+		},
+		{
+			"path": "pages/my/service",
+			"style": {
+				"navigationBarTitleText": "客服"
+			}
+		},
+		{
+			"path": "pages/my/setting",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/my/cancellation",
+			"style": {
+				"navigationBarTitleText": "注销账户"
+			}
+		},
+		{
+			"path": "pages/my/about",
+			"style": {
+				"navigationBarTitleText": "关于"
+			}
+		},
+		{
+			"path": "pages/my/service_agreement",
+			"style": {
+				"navigationBarTitleText": "服务协议"
+			}
+		},
+		{
+			"path": "pages/my/personal_info",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/my/edit_info",
+			"style": {
+				"navigationBarTitleText": "个人信息编辑"
+			}
+		},
+		{
+			"path": "pages/my/feed_back",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		},
+		{            "path" : "pages/order/index",            "style" : {                "navigationBarTitleText": "",                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"            }                    },
+		{            "path" : "pages/test/test",            "style" : {                "navigationBarTitleText": "",                "enablePullDownRefresh": false            }                    },        {            "path" : "pages/test-1/test-1",            "style" : {                "navigationBarTitleText": "",                "enablePullDownRefresh": false            }                    },
+		{            "path" : "pages/test-2/test-2",            "style" : {                "navigationBarTitleText": "",                "enablePullDownRefresh": false            }                    }
+	    ,{
+            "path" : "pages/wxtest/wxtest",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "demo",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#cdcdcd",
+		"selectedColor": "#50b7ea",
+		"borderStyle":"white",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"text": "home",
+				"iconPath": "./static/tabbar/component.png",
+				"selectedIconPath": "./static/tabbar/component_cur.png"
+			},
+			{
+				"pagePath": "pages/order/index",
+				"text": "order",
+				"iconPath": "./static/tabbar/basics.png",
+				"selectedIconPath": "./static/tabbar/basics_cur.png"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"text": "my",
+				"iconPath": "static/tabbar/about.png",
+				"selectedIconPath": "static/tabbar/about_cur.png"
+			}
+		]
+	}
+}
